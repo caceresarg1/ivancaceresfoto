@@ -1,0 +1,158 @@
+body {
+    background-color: #111 !important;
+}
+
+.flex-column {
+    max-width: 495px;
+}
+
+.icf-negro {
+    background-color: #111;
+}
+
+.icf-item-negro:hover {
+    background-color: #333;
+}
+
+.logo {
+    padding: 370px 0;
+}
+
+.logo img {
+    width: 800px;
+}
+
+.imagen {
+    margin: 0 6px 6px 6px;
+}
+
+/* #images-inicio {
+  position: relative;
+} */
+
+.sombra {
+    background-color: red;
+    height: 100%;
+}
+
+.logoMantenimiento {
+    padding: 150px 0;
+    color: white;
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: bold !important;
+    font-size: 22px !important;
+    text-shadow: 1px 0 rgba(17, 17, 17, 0.100), -1px 0 rgba(17, 17, 17, 0.100), 0 1px rgba(17, 17, 17, 0.100), 0 -1px rgba(17, 17, 17, 0.100),
+                1px 0 rgba(17, 17, 17, 0.100), -1px 0 rgba(17, 17, 17, 0.100), 1px 0 rgba(17, 17, 17, 0.100), -1px 0 rgba(17, 17, 17, 0.100);
+/* text-shadow: #111 1px 0 10px; */
+}
+  
+.logoMantenimiento img {
+    width: 850px;
+}
+  
+#iconosRedesMantenimiento > a > i {
+    font-size: 30px;
+    color: white;
+    padding: 0 15px;
+}
+
+/* PRESUPUESTOS */
+
+.presupuesto-tarjeta {
+    font-family: "Average Sans", sans-serif;
+    background-color: #111;
+    border: 4px solid white;
+    border-radius: 10px;
+    color: white;
+}
+
+.presupuesto-contenedor {
+    padding: 15px;
+}
+
+.presupuesto-titulo-contendor {
+    background-color: white;
+    color: #111;
+}
+
+.presupuesto-titulo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.presupuesto-descripcion {
+    font-size: 13px;
+    padding: 5px;
+}
+
+.presupuesto-numero {
+    font-weight: bold;
+    font-size: 48px;
+    font-family: "Open Sans", sans-serif;
+    display: grid;
+    gap: 20px;
+}
+
+.presupuesto-numero-chico {
+    font-size: 16px;
+}
+
+.presupuesto-resumen {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.presupuesto-maquillaje {
+    font-size: 19px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+}
+
+.presupuesto-detalles {
+  font-size: 14px;
+}
+
+.presupuesto-detalles-icono {
+    font-size: 13px;
+    padding-right: 7px;
+}
+
+.presupuesto-detalles-items {
+    text-align: justify;
+}
+
+.faq, .faq-item, .faq-encabezado, .faq-encabezado-boton {
+    background-color: #111 !important;
+    color: white !important;
+}
+
+.faq-item {
+    border: 1px solid white;
+}
+
+.faq-encabezado-boton {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.faq-body {
+    font-size: 14px;
+}
+
+.faq-encabezado-boton:not(.collapsed) {
+    color: white !important;
+}
+.faq-encabezado-boton::after {
+    color: white !important;
+    filter: brightness(0%) invert(70%);
+}
+
+.faq-encabezado-boton:focus {
+    box-shadow: inherit;
+}
+
+@media screen and (max-width: 376px) {
+    .presupuesto-numero {
+        font-size: 40px;
+    }
+}

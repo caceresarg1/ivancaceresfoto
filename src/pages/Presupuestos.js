@@ -1,11 +1,16 @@
-import { useParams } from "react-router-dom"
 import { Buffer } from "buffer";
-import PresupuestoPersonal from "./PresupuestoPersonal";
-import PresupuestoDetalles from "../components/PresupuestoDetalles";
-import PresupuestoProfesional from "./PresupuestoProfesional";
-import PresupuestoComercial from "./PresupuestoComercial";
+import { useParams } from "react-router-dom";
 import PreguntasFrecuentes from "../components/PreguntasFrecuentes";
+import PresupuestoDetalles from "../components/PresupuestoDetalles";
+import PresupuestoComercial from "./PresupuestoComercial";
+import PresupuestoPersonal from "./PresupuestoPersonal";
+import PresupuestoProfesional from "./PresupuestoProfesional";
 export const ImgLogos = require.context('../assets/img/logos');
+
+window.PrecioPersonal = '$1000';
+window.PrecioProfesional = '$1100';
+window.PrecioComercial = '$1200';
+window.viaticoCiudadFormosa = '$1000';
 
 const Presupuestos = () => {
     let {tipoPresupuesto} = useParams();

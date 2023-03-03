@@ -9,7 +9,7 @@ const PresupuestoProfesional = () => {
                 <div className="presupuesto-numero justify-content-center">
                     <div className="row">
                         <div className="col text-center p-1">
-                            $900<span className="presupuesto-numero-chico">P/foto</span><br/>
+                            {window.PrecioProfesional}<span className="presupuesto-numero-chico">P/foto</span><br/>
                             <span className="presupuesto-resumen">(Un m&iacute;nimo de 10 fotos por sesi&oacute;n)</span>
                         </div>
                         <div className="col text-center p-1">

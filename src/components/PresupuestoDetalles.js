@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const PresupuestoDetalles = () => {
     return (
@@ -22,7 +22,11 @@ const PresupuestoDetalles = () => {
                         <i className="bi bi-check2-circle presupuesto-detalles-icono"></i>Espacio en Google Drive para visualizar, descargar y alojar sus fotos<br/>
                     </div>
                     <div className="presupuesto-detalles-items">
-                        <i className="bi bi-info-circle presupuesto-detalles-icono"></i>En caso de que la sesi&oacute;n sea fuera del estudio, solicitar presupuesto del vi&aacute;tico<br/>
+                        <i className="bi bi-info-circle presupuesto-detalles-icono"></i>En caso de que la sesi&oacute;n sea fuera del estudio<br/>
+                    </div>
+                    <div className="presupuesto-detalles-items">
+                        <span className="m-4"><i class="bi bi-dot"></i>Dentro de la Ciudad de Formosa: <strong>{window.viaticoCiudadFormosa}</strong></span><br/>
+                        <span className="m-4"><i class="bi bi-dot"></i>Fuera de la Ciudad de Formosa: Solicitar presupuesto (Dependerá de la cantidad de kilometros).</span><br/>
                     </div>
                 </div>
                 
